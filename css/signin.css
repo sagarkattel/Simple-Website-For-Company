@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;500;900&display=swap');
+
+*{
+    transition: all 0.3s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+.navbar{
+    height: 50px;
+    background-color: white;
+    z-index: 1;
+}
+.logo{
+    margin-left: 10%;
+}
+.already{
+    margin-top: -3.3%;
+    margin-left: 75%;
+}
+
+.main__page{
+    height: 150vh;
+    background-color: aliceblue;
+}
+
+
+h1{
+    padding-top: 24%;
+    text-align: center;
+    color: #56baed;
+}
+
+
+.container__one {
+
+    height: 75%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+  }
+
+
+  input[type=button]{
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  input[type=button]:hover {
+    background-color: #39ace7;
+  }
+
+
+
+ input[type=password],input[type=email]{
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    width: 67%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    position: relative;
+  }
+  
+
+ 
+
+  .icon{
+    position: absolute;
+    /* top: 50%; */
+    /* left: 20px;
+    transform: translateY(-290%); */
+    margin-top: -10%;
+    margin-left: 12%;
+    color: grey;
+  }
+
+
+
+  .strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+   
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    /* width: 9999px; */
+    width: 95%;
+    height: 1px;
+    background: red;
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+
+.social_icons a{
+    display: block;
+    height: 45px;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  .social_icons a span{
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .social_icons a:first-child{
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 10%;
+    background: #4267B2;
+  }
+  .social_icons a:first-child:hover{
+    background: #375695;
+  }
+  .social_icons a:last-child{
+    width: 40%;
+    margin-left: 240px;
+    margin-top: -10%;
+    background: #1DA1F2;
+  }
+  .social_icons a:last-child:hover{
+    background: #0d8bd9;
+  }
